@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/counttoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Count CSV/TSV toml tables for quick inspection and cleanup.",
+  "bin": {
+    "counttoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/counttoml.git"
+  },
+  "homepage": "https://theworker02.github.io/counttoml/",
+  "keywords": [
+    "count",
+    "toml",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
